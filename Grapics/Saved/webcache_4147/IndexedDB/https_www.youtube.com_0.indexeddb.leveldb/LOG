@@ -1,0 +1,5 @@
+2022/12/01-14:54:41.387 21c8 Reusing MANIFEST C:/Users/ASUS/Desktop/UE5_Study/Grapics/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/01-14:57:22.563 4a48 Level-0 table #5: started
+2022/12/01-14:57:22.567 4a48 Level-0 table #5: 7154 bytes OK
+2022/12/01-14:57:22.569 4a48 Delete type=0 #3
+2022/12/01-14:57:22.569 4a48 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
