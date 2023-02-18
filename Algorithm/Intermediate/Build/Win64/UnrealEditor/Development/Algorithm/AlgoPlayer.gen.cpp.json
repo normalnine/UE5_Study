@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\unrealproject\\algorithm\\intermediate\\build\\win64\\unrealeditor\\inc\\algorithm\\algoplayer.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unrealproject\\algorithm\\intermediate\\build\\win64\\algorithmeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\unrealproject\\algorithm\\intermediate\\build\\win64\\unrealeditor\\development\\algorithm\\definitions.algorithm.h",
+            "c:\\unrealproject\\algorithm\\source\\algorithm\\public\\algoplayer.h",
+            "c:\\unrealproject\\algorithm\\intermediate\\build\\win64\\unrealeditor\\inc\\algorithm\\algoplayer.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

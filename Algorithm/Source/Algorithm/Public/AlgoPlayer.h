@@ -1,0 +1,63 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Pawn.h"
+#include "AlgoPlayer.generated.h"
+
+UCLASS()
+class ALGORITHM_API AAlgoPlayer : public APawn
+{
+	GENERATED_BODY()
+
+public:
+	// Sets default values for this pawn's properties
+	AAlgoPlayer();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+public:
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class UAlgoPuzzle> puzzleFactory;
+	UPROPERTY()
+	class UAlgoPuzzle* puzzle;
+
+public:
+	void InputMouseLDown();
+	void InputMouseLUp();
+
+
+public:
+	UPROPERTY(EditAnywhere)
+	class ACube* startCube;
+	UPROPERTY(EditAnywhere)
+	class ACube* goalCube;
+	UPROPERTY(EditAnywhere)
+	class ACube* currCube;
+
+
+
+	UPROPERTY()
+	TArray<class ACube*> openArray;
+	UPROPERTY()
+	TArray<class ACube*> closeArray;
+	UPROPERTY()
+	TArray<class ACube*> pathArray;
+
+	void FindPath();
+	void FindNear();
+	void AddOpen(FVector dir);
+
+	float currTime = 0;
+	void SimpleMove();
+};

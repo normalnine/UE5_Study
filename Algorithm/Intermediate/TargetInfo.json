@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Algorithm",
+			"Path": "C:\\UnrealProject\\Algorithm\\Source\\Algorithm.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AlgorithmEditor",
+			"Path": "C:\\UnrealProject\\Algorithm\\Source\\AlgorithmEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

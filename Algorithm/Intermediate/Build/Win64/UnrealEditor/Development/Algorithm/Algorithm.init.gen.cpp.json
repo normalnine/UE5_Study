@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\unrealproject\\algorithm\\intermediate\\build\\win64\\unrealeditor\\inc\\algorithm\\algorithm.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unrealproject\\algorithm\\intermediate\\build\\win64\\algorithmeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\unrealproject\\algorithm\\intermediate\\build\\win64\\unrealeditor\\development\\algorithm\\definitions.algorithm.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

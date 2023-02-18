@@ -1,0 +1,17 @@
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\ASUS\AppData\Local\UnrealBuildTool\Log.txt
+  Building AlgorithmEditor...
+  Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from Algorithm unity file: AlgoPlayer.cpp, AlgoPuzzle.cpp, Cube.cpp, Algorithm.cpp, AlgorithmGameModeBase.cpp
+  Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+    Executing up to 6 processes, one per physical core
+    Requested 1.5 GB free memory per action, 4.42 GB available: limiting max parallel actions to 2
+  Building 4 actions with 2 processes...
+  [1/4] Compile AlgoPlayer.cpp
+  [2/4] Link UnrealEditor-Algorithm-0065.lib
+     C:\UnrealProject\Algorithm\Intermediate\Build\Win64\UnrealEditor\Development\Algorithm\UnrealEditor-Algorithm-0065.lib 라이브러리 및 C:\UnrealProject\Algorithm\Intermediate\Build\Win64\UnrealEditor\Development\Algorithm\UnrealEditor-Algorithm-0065.exp 개체를 생성하고 있습니다.
+  [3/4] Link UnrealEditor-Algorithm-0065.dll
+     C:\UnrealProject\Algorithm\Intermediate\Build\Win64\UnrealEditor\Development\Algorithm\UnrealEditor-Algorithm-0065.suppressed.lib 라이브러리 및 C:\UnrealProject\Algorithm\Intermediate\Build\Win64\UnrealEditor\Development\Algorithm\UnrealEditor-Algorithm-0065.suppressed.exp 개체를 생성하고 있습니다.
+  [4/4] WriteMetadata AlgorithmEditor.target
+  Total time in Parallel executor: 6.39 seconds
+  Total execution time: 7.08 seconds

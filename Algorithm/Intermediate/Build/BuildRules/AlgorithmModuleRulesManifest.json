@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\UnrealProject\\Algorithm\\Source\\Algorithm\\Algorithm.Build.cs",
+		"C:\\UnrealProject\\Algorithm\\Source\\Algorithm.Target.cs",
+		"C:\\UnrealProject\\Algorithm\\Source\\AlgorithmEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

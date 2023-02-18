@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\unrealproject\\algorithm\\intermediate\\build\\win64\\unrealeditor\\inc\\algorithm\\algorithmgamemodebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unrealproject\\algorithm\\intermediate\\build\\win64\\algorithmeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\unrealproject\\algorithm\\intermediate\\build\\win64\\unrealeditor\\development\\algorithm\\definitions.algorithm.h",
+            "c:\\unrealproject\\algorithm\\source\\algorithm\\algorithmgamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\unrealproject\\algorithm\\intermediate\\build\\win64\\unrealeditor\\inc\\algorithm\\algorithmgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Algorithm.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Algorithm.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AlgorithmEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\Algorithm">
+      <UniqueIdentifier>{C9785596-986A-3970-BF80-6D3F96E47F8F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Algorithm\Algorithm.Build.cs">
+      <Filter>Source\Algorithm</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Algorithm\Algorithm.cpp">
+      <Filter>Source\Algorithm</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Algorithm\Algorithm.h">
+      <Filter>Source\Algorithm</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Algorithm\AlgorithmGameModeBase.cpp">
+      <Filter>Source\Algorithm</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Algorithm\AlgorithmGameModeBase.h">
+      <Filter>Source\Algorithm</Filter>
+    </ClInclude>
+    <Filter Include="Source\Algorithm\Private">
+      <UniqueIdentifier>{3FA8693C-FDA0-3953-A8E9-3E24596DB843}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Algorithm\Private\AlgoPlayer.cpp">
+      <Filter>Source\Algorithm\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Algorithm\Private\AlgoPuzzle.cpp">
+      <Filter>Source\Algorithm\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Algorithm\Private\Cube.cpp">
+      <Filter>Source\Algorithm\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Algorithm\Public">
+      <UniqueIdentifier>{3A7B2107-9245-3265-B3DF-A4D8B1ED5819}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Algorithm\Public\AlgoPlayer.h">
+      <Filter>Source\Algorithm\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Algorithm\Public\AlgoPuzzle.h">
+      <Filter>Source\Algorithm\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Algorithm\Public\Cube.h">
+      <Filter>Source\Algorithm\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
